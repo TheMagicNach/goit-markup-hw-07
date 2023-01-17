@@ -1,0 +1,295 @@
+@media screen and (min-width:768px) and (max-width:1199px){
+    /* global */
+    .container{
+        padding-left: 16px;
+        padding-left: 16px;
+    } 
+    /* header */
+    .info-nav{
+        display: inline;
+       
+    }
+    .site-nav {
+        display: flex;
+        margin-left: 124px;
+    }
+    .nav-site {
+        display: block;
+    }
+
+
+
+    /* hero */
+    .hero{
+        height: 436px;
+        max-width: 1200px;
+    }
+    .hero .hero-title{
+        width: 492px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 107%;
+
+        margin: 0 auto 40px auto;
+        padding-top: 112px;
+    }
+    .overlay{
+        max-width: 1200px;
+        height: 436px; 
+
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet.jpg);
+        background-size: 768px 436px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .overlay {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/tablet@2x.jpg);
+                
+        }
+    }
+    /* second-section */
+    .advances-menu{
+        display: flex;
+        flex-wrap: wrap;
+       margin-left: auto;
+       margin-right: auto;
+        width: 736px;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+    .advances-menu .item:not(:last-child) {
+        margin-bottom: 0;
+    }
+    
+    .second-section .second-title{
+        text-align: start;
+    }
+    .second-section .second-desc{
+        max-width: 356px;
+        margin-left: 0;
+    }
+    /* third-section */
+
+    /* fourth-section */
+    .team-menu {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto; 
+        width: 552px;
+        row-gap: 64px;
+        column-gap: 24px;
+    }
+   
+
+    /* fifth-section */
+    .customers-menu{
+
+        display: flex;
+        flex-wrap: wrap;
+        
+        width: 552px;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+   
+    .customers-menu .item {
+        width: 168px;
+        height: 88px;
+        
+    }
+    .customers-href{
+        width: 168px;
+    }
+    /* footer */
+    .footer-div {
+        display: flex;
+        flex-wrap: wrap; 
+       
+     
+        row-gap: 72px;
+        column-gap: 24px;
+       
+    }
+  
+    .container.div{
+      width: 528px;
+    }
+    
+    .email-form{
+        width: 100%;
+    }
+    .modal .form {
+        padding: 24px;
+    }
+    /* modal */
+    .mobile-button{
+        display: none;
+    }
+
+
+    .section {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+}
+
+
+
+
+@media screen and (min-width:1200px){
+    /* header */
+    .info-nav {
+        display: flex;
+    }
+    .info-nav .item+.item {
+        margin-left: 40px;
+    }
+    .site-nav {
+        margin-left: 76px;
+    }
+    .nav-site{
+        display: block;
+    }
+
+    /* hero */
+    .hero{
+        height: 600px;
+    }
+    .hero .hero-title {
+        margin-bottom:0 auto 48px auto;
+        padding-top: 188px;
+    }
+
+    .overlay {
+        max-width: 1440px;
+        height: 600px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/dekstop.jpg);
+        background-size: 1440px 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .overlay {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/dekstop@2x.jpg);
+        }
+    }
+
+    /* secont-section */
+    .advances-menu{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .advances-menu .item::before{
+        display: block;
+    }
+    .advances-menu .item {
+        width: 264px;
+    }
+    .advances-menu .item:not(:last-child){
+        margin-bottom: 0;
+    }
+    .advances-menu .item +.item{
+        margin-left:24px;
+    }
+    .advances-menu .item::before {
+        
+        content: '';
+
+        height: 112px;
+        background-color: #F4F4FD;
+
+        margin-bottom: 8px;
+        border-radius: 4px;
+        background-size: 64px 64px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .second-section .second-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .second-section .second-desc{
+            width: 264px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+    }
+    /* third-section */
+    .third-section{
+        display: block;
+    }
+        .team-menu .item:not(:last-child) {
+            margin-bottom: 0px;
+        }
+    /* fourth-section */
+    
+        .team-menu {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        }
+        .team-menu .item+.item {
+            margin-left: 24px;
+        }
+   
+   
+        /* fifth-section */
+
+        .customers-menu{
+            flex-wrap: nowrap;
+            width: 1088px;
+            margin-left: 0;
+            margin-right: 0;
+            column-gap: 24px;
+        }
+        .customers-menu .item{
+            width: 168px;
+        }
+        .customers-href{
+            width: 168px;
+        }
+        
+      
+    /* footer */
+        .footer-part:nth-child(2) {
+            margin-left: 120px;
+        }
+        .footer-part:nth-child(3) {
+            margin-left: 80px;
+
+        }
+        .footer-div{
+            display: flex;
+            justify-content: center;
+        }
+    /* Modal */
+        .modal {
+            margin-bottom: 80px;
+        }
+        .modal .form {
+            padding: 24px;
+    }
+            .mobile-button {
+                display: none;
+            }
+
+
+
+    .section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+}

@@ -15,6 +15,7 @@
 		/>
 		<link rel="stylesheet" href="./css/modern-normalize.css">
 		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/adaptive.css"/>
 	</head>
 	<body>
 		<!-- header and nav -->
@@ -167,21 +168,21 @@
 						</ul>
 					</div>	
 					<div class="footer-part">
-						<form>
-							<div class="column">
-								<label  for="subscribe">Subscribe</label>
-							</div>
-								<input 
-								type="email" 
+						<p class="footer-title">Subscribe</p>
+						
+							<form class="email-form">
+								<input type="email" 
 								placeholder="E-mail" 
 								id="subscribe" 
-								class="footer-email" required>
-							<button class="button-form">Subscribe
-								<svg class="icon">
-									<use href="./images/icons.svg#icon-icon-send " ></use>
-								</svg>
-							</button>
-						</form>
+								class="footer-email" 
+								required>
+									<button class="button-form">Subscribe
+										<svg class="icon">
+											<use href="./images/icons.svg#icon-icon-send " ></use>
+										</svg>
+									</button>
+						
+							</form>
 					</div>
 
 				</div>
