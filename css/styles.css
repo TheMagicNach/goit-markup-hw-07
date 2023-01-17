@@ -177,7 +177,7 @@ img{
 }
 
 .menu-container{
-    
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     position: absolute;
     top:0;
     left: 0;
@@ -483,7 +483,7 @@ img{
     background-image: linear-gradient(
         rgba(46, 47 ,66 ,0.7) ,rgba(46, 47, 66, 0.7) 
      ), url(../images/phone.jpg);
-     
+
     background-size: 428px 432px;
     background-repeat: no-repeat;
     background-size: cover;
